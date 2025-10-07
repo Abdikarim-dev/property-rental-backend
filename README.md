@@ -130,41 +130,7 @@ This creates:
 - Cancel own bookings
 - Create and update reviews for booked properties
 
-## Project Structure
 
-\`\`\`
-backend/
-├── src/
-│   ├── config/
-│   │   └── db.js
-│   ├── middleware/
-│   │   ├── authMiddleware.js
-│   │   └── errorMiddleware.js
-│   ├── models/
-│   │   ├── User.js
-│   │   ├── Property.js
-│   │   ├── Booking.js
-│   │   └── Review.js
-│   ├── controllers/
-│   │   ├── authController.js
-│   │   ├── userController.js
-│   │   ├── propertyController.js
-│   │   ├── bookingController.js
-│   │   └── reviewController.js
-│   ├── routes/
-│   │   ├── authRoutes.js
-│   │   ├── userRoutes.js
-│   │   ├── propertyRoutes.js
-│   │   ├── bookingRoutes.js
-│   │   └── reviewRoutes.js
-│   ├── scripts/
-│   │   └── seed.js
-│   ├── app.js
-│   └── server.js
-├── .env.example
-├── package.json
-└── README.md
-\`\`\`
 
 ## Error Handling
 
